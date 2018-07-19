@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="76E157FFFE4E1B04100B2F20DFF0010A" Timestamp="1D41795466F0F8E" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
+		<ApplicationVersionInfo Build="5.3.1.49938" Name="LabVIEW Conversion" Version="5.3.1.49938" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Default" Id="1" RootNamespaceId="13" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="5" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="10" Name="Default">
+			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
+			<ComponentItemProperties AssociatedEnvoyId="14" Exported="True" Id="15" />
+			<ComponentItemProperties AssociatedEnvoyId="16" Exported="True" Id="17" />
+			<ComponentItemProperties AssociatedEnvoyId="18" Exported="True" Id="19" />
+			<ComponentItemProperties AssociatedEnvoyId="20" Exported="True" Id="21" />
+			<ComponentItemProperties AssociatedEnvoyId="22" Exported="True" Id="23" />
+			<ComponentItemProperties AssociatedEnvoyId="24" Exported="True" Id="25" />
+			<ComponentItemProperties AssociatedEnvoyId="26" Exported="True" Id="27" />
+			<ComponentItemProperties AssociatedEnvoyId="28" Exported="True" Id="29" />
+			<ComponentItemProperties AssociatedEnvoyId="30" Exported="True" Id="31" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="7" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Id="8" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global\ namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="13" Name="Newport\ ESP301">
+				<SourceFileReference Id="14" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initialize\.gvi" StoragePath="Initialize.gvi" />
+				<SourceFileReference Id="16" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close\.gvi" StoragePath="Close.gvi" />
+				<SourceFileReference Id="18" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Revision\ Query\.gvi" StoragePath="Revision Query.gvi" />
+				<SourceFileReference Id="20" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Reset\.gvi" StoragePath="Reset.gvi" />
+				<SourceFileReference Id="22" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error\ Query\.gvi" StoragePath="Error Query.gvi" />
+				<SourceFileReference Id="24" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write\ Command\ and\ Read\.gvi" StoragePath="Write Command and Read.gvi" />
+				<SourceFileReference Id="26" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Move\ Absolute\.gvi" StoragePath="Move Absolute.gvi" />
+				<SourceFileReference Id="28" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Move\ Relative\.gvi" StoragePath="Move Relative.gvi" />
+				<SourceFileReference Id="30" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read\ absolute\ position\.gvi" StoragePath="Read absolute position.gvi" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="Newport\ ESP301\.gcomp" NameTracksFileName="True">
+			<ComponentDefinitionContentReferenceRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<ContentReference ContentIdentifier="10" Id="12" Name="Default" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
